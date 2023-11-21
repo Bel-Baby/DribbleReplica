@@ -1,0 +1,143 @@
+/* need to give the input a color that would appear when selected
+   why did my wrapper shrink when i added a VW of 100 to my body */
+
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.Wrap{
+    justify-content:flex-start;
+}
+
+.sideVid{
+    width: 400px;
+    height: 100vh;
+    position: relative;
+}
+
+.vidWidth{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sideVid .Dribble{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.sideVid .Glebich{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.MainContainer{
+    /*height: 100vh;*/
+    width: 425px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 1px #ccc;
+    background-color: white;
+    margin: 30px 0px 20px;
+}
+
+.NavyBtn{
+    background-color: rgb(1, 1, 59);
+    color: white;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.imgbtn{
+    position: relative;
+    justify-content: center;
+}
+
+.image{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+}
+
+.inline{
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    width: 100%;
+}
+  
+.inline hr{
+    color: #ccc;
+    opacity: 0.5;
+}
+
+.inline span{
+    position: absolute;
+    bottom: -6px;
+    right: 140px;
+    background-color: #fff;
+    color: #333;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+/*input:focus-visible{
+    border-color: violet;
+}*/
+
+label{
+    font-weight: bold;
+}
+
+main p{
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.forgot{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forgot a{
+    font-size: 15px;
+}
+
+a{
+    color: black;
+}
+
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
